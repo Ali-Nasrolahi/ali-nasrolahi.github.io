@@ -1,0 +1,24 @@
+
+name: hugo
+
+services:
+    build:
+        image: klakegg/hugo:ext-alpine
+        user: 1000:1000
+        volumes:
+            - .:/src
+    server:
+        image: klakegg/hugo:ext-alpine
+        user: 1000:1000
+        command: server -D
+        volumes:
+            - .:/src
+        ports:
+            - 1313:1313
+    nginx:
+        image: nginx
+        volumes:
+            - ./public:/usr/share/nginx/html
+        ports:
+            - 80:80
+
