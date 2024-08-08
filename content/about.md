@@ -9,4 +9,21 @@ Hi! My name is Ali, I am a developer.
 Enjoying low-level programming for Linux, embedded stuff, networking and even PCB design.
 I've been tinkering with C/C++ for a while and been working as a *system programmer* for virtualization purposes.
 
-Connect with me @[Ali Nasrolahi](https://www.linkedin.com/in/ali-nasrolahi/)
+<style>
+.libutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #0A66C2;
+    font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+</style>
+<a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ali-nasrolahi" target="_blank">Follow on LinkedIn</a>
