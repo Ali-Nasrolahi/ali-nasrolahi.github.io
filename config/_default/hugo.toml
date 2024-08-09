@@ -4,6 +4,7 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 #baseURL = "https://ali-nasrolahi.github.io/itsame/"
+baseURL = "/"
 relativeURLs = false
 defaultContentLanguage = "en"
 
