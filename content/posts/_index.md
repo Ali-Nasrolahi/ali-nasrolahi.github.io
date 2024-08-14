@@ -1,5 +1,15 @@
 ---
 title: "Posts"
+description: "Posts about technology, programming, DevOps and lot more"
+
 cascade:
-    showReadingTime: false
+    showDate: false
+    showAuthor: false
+    invertPagination: true
+
+showEdit: true
 ---
+
+{{< lead >}}
+Diverse Articles Surrounding Technology
+{{< /lead >}}
