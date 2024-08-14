@@ -3,11 +3,9 @@ title: "Posts"
 description: "Posts about technology, programming, DevOps and lot more"
 
 cascade:
-    showDate: false
-    showAuthor: false
-    invertPagination: true
-
-showEdit: true
+    showDate: true
+    showAuthor: true
+    invertPagination: false
 ---
 
 {{< lead >}}
