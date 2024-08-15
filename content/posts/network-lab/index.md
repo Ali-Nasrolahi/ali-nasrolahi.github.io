@@ -1,5 +1,5 @@
 ---
-title: "Part 1: Introduction to Virtual Network"
+title: "Introduction to Virtual Network"
 date: 2024-08-14T18:30:18Z
 draft: false
 description: "Virtual Network with QEMU/KVM and Open vSwitch Infrastructure"
