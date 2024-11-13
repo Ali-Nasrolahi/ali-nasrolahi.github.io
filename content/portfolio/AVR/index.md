@@ -22,7 +22,7 @@ Designed for flexibility and ease of integration, it enables developers to work 
 
 Furthermore, it has been utilized as the main framework for my other projects, as well.
 
-Source code available at [Ali-Nasrolahi/AVRLib](https://github.com/Ali-Nasrolahi/avrlib).
+Source code is available at [Ali-Nasrolahi/AVRLib](https://github.com/Ali-Nasrolahi/avrlib).
 
 ## SD Card Driver with Basic I/O Support
 
@@ -30,14 +30,20 @@ Building on the foundation of the *AVR library*, the SD card driver facilitates 
 Utilizing the SPI protocol implemented in the HAL, this driver enables efficient communication between the microcontroller and an SD card, allowing for straightforward data management.
 This SD card driver supports basic I/O operations, seamlessly integrating with the broader AVR library for smooth, dependency-free data handling.
 
-Source code available at [Ali-Nasrolahi/AVR-SDCard](https://github.com/Ali-Nasrolahi/avr-sdcard).
+Source code is available at [Ali-Nasrolahi/AVR-SDCard](https://github.com/Ali-Nasrolahi/avr-sdcard).
+
+## DC Motor control based on L293
+
+A bidirectional DC motor control system was developed using an L293 motor driver, with ADC employed for analog inputs to generate corresponding PWM signals for precise speed control.
+
+Source code with used circuit are available at [Ali-Nasrolahi/AVR-Gists/Motors](https://github.com/Ali-Nasrolahi/avr-gists/tree/master/Motors).
 
 ## References
 
 Main reference for all projects are their specifications, such as:
 
 - *Microchip's ATmega datasheet*
-- *SD Specifications, Part 1: Physical Layer*
-- and many more!
+- SD Specifications, Part 1: Physical Layer
+- The datasheet for each component relevant to each project
 
 Also great public repositories, such as *Arduino's* libraries and community projects, were extremely helpful.
