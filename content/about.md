@@ -2,6 +2,7 @@
 title: "About"
 date: 2024-08-08T15:52:23Z
 draft: false
+showauthor: true
 ---
 
 Hi! My name is Ali, I am a developer.  
