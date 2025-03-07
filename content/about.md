@@ -1,14 +1,12 @@
 ---
-title: "About"
+title: "About Me"
 date: 2024-08-08T15:52:23Z
 draft: false
-showauthor: true
 ---
 
-Hi! My name is Ali, I am a developer.  
+Hi, my name is Ali. I'm a system and infrastructure programmer with a strong passion for embedded systems and Linux. I enjoy understanding how things work under the hood and love diving into low-level programming. Lately, I've been exploring more about kernel and driver development. I'm always curious about system architecture, performance, and making things more efficient.
 
-Enjoying low-level programming for Linux, embedded stuff, networking and even PCB design.
-I've been tinkering with C/C++ for a while and been working as a *system programmer* for virtualization purposes.
+Welcome to my space!
 
 <style>
 .libutton {
