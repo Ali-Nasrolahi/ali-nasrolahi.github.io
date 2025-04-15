@@ -50,6 +50,10 @@ The driver is logically divided into two components:
 
 *Future Improvement Note*: I'm planning to integrate the `regmap` subsystem to abstract the low-level SPI operations, which would make the code more maintainable and potentially more efficient.
 
+{{< alert >}}
+**Note** `regmap` is supported from `v0.2`.
+{{< /alert >}}
+
 ### User Space Interface
 
 The driver provides multiple ways to interact with the device:
@@ -169,7 +173,7 @@ Developing this driver was an excellent exercise in Linux kernel programming and
 
 The driver currently works well for basic accelerometer functionality, but there are several potential improvements:
 
-1. Integration with the `regmap` subsystem
+1. Integration with the `regmap` subsystem (`done in v0.2`)
 2. Adding support for interrupt-driven operation
 3. Implementing input subsystem integration for event reporting
 
