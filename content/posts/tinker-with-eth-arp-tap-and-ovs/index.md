@@ -58,14 +58,14 @@ To experiment safely, I built the following virtual topology:
    sudo ovs-vsctl add-br br0
    sudo ovs-vsctl add-port br0 tap0
    sudo ovs-vsctl add-port br0 int0 -- set interface int0 type=internal
-   sudo ip addr add 172.16.60.157/24 dev int0
+   sudo ip addr add 192.168.1.10/24 dev int0
    sudo ip link set int0 up
    ```
 
 3. **Verify connectivity**:  
 
    ```bash
-   ping -c 1 172.16.60.157 # Should work if everything is configured properly
+   ping -c 1 192.168.1.10 # Should work if everything is configured properly
    ```
 
 This setup ensures that ARP packets sent on `tap0` are visible to `int0`, effectively emulating a broadcast domain.
