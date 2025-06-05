@@ -126,7 +126,7 @@ This modular design allows for flexibility—minimal systems can drop the DM and
 
 ---
 
-### Virtual Frame Buffer (VFB)
+## Virtual Frame Buffer (VFB)
 
 One of the interesting components you might encounter in headless systems is the **Virtual Frame Buffer**. Headless systems—those without a physical display—can still run GUI applications, but they require a virtual display backend to do so. That’s where virtual frame buffers come in.
 
