@@ -10,7 +10,7 @@ title = "it's-a me"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
-  description = "Notes on Linux kernel, networking, virtualization, and systems programming."
+  description = "Notes on Linux kernel internals, networking, virtualization, distributed systems, and systems programming, with practical experiments and technical deep dives."
 
 [params.author]
   name = "Ali Nasrollahi"
