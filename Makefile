@@ -1,14 +1,19 @@
 all: up
 
 shell:
-	@podman compose exec main bash
+	@podman compose exec main sh
 
-up:
+up: down
 	@podman compose up -d
-	@podman compose run --rm main ''
 
 down:
 	@podman compose down
 
 logs:
 	@podman compose logs -f
+
+build:
+	@podman compose run --rm main --minify
+
+version:
+	@podman compose run --rm main version

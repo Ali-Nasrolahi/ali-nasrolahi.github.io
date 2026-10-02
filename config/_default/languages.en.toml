@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 1
 title = "it's-a me"
 
@@ -10,9 +10,7 @@ title = "it's-a me"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  description = "Welcome"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  description = "Notes on Linux kernel, networking, virtualization, and systems programming."
 
 [params.author]
   name = "Ali Nasrollahi"
@@ -21,6 +19,9 @@ title = "it's-a me"
   bio = "I do some C stuff :)"
   links = [
       { email = "mailto:A.Nasrolahi01@gmail.com" },
+      { linkedin = "https://linkedin.com/in/ali-nasrolahi" },
+      { github = "https://github.com/ali-nasrolahi" },
+  ]
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -33,7 +34,6 @@ title = "it's-a me"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-      { github = "https://github.com/ali-nasrolahi" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -42,7 +42,6 @@ title = "it's-a me"
 #     { keybase = "https://keybase.io/username" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-      { linkedin = "https://linkedin.com/in/ali-nasrolahi" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
@@ -68,4 +67,4 @@ title = "it's-a me"
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-  ]
+#  ]
