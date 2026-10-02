@@ -4,7 +4,9 @@ date: 2024-08-08T15:52:23Z
 draft: false
 ---
 
-Hi, my name is Ali. I'm a system and infrastructure programmer with a strong passion for embedded systems and Linux. I enjoy understanding how things work under the hood and love diving into low-level programming. Lately, I've been exploring more about kernel and driver development. I'm always curious about system architecture, performance, and making things more efficient.
+Hi, my name is Ali. I’m a Linux systems and infrastructure engineer interested in understanding how systems work under the hood. My work spans Linux, virtualization, networking, and low-level systems programming, and I’ve recently been spending more time exploring kernel and driver development.
+
+I enjoy learning through hands-on projects, technical writing, and open-source contributions, with a particular interest in system architecture, performance, and building efficient and maintainable software.
 
 Welcome to my space!
 
