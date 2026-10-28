@@ -3,7 +3,7 @@ title: "Introduction to Virtual Networking series"
 date: 2024-08-14T18:30:18Z
 draft: false
 description: "Virtual Networking with QEMU/KVM and Open vSwitch Infrastructure"
-tags: ['qemu', 'open vswitch', 'network']
+tags: ['qemu', 'openvswitch', 'network']
 series: ['VirtualNetworking']
 series_order: 1
 ---

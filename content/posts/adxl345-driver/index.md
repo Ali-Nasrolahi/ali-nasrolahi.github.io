@@ -3,7 +3,7 @@ title: "ADXL345 SPI Accelerometer Driver for BeagleBone Black"
 date: 2025-04-11T07:02:37Z
 draft: false
 description: "Learn how to write a Linux kernel driver for the ADXL345 accelerometer using SPI on BeagleBone Black. This step-by-step guide covers SPI communication, device tree overlays, character device interface, IOCTL commands, and sysfs attributes, with full source code on GitHub. Perfect for embedded Linux developers working on sensor drivers, motion detection, or SPI peripherals—includes Buildroot integration and a test application for validation."
-tags: ['beaglebone', 'device driver', 'linux', 'kernel']
+tags: ['beaglebone', 'device-driver', 'linux', 'kernel']
 ---
 
 ## Introduction

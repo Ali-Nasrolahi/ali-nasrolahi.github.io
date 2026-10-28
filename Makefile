@@ -1,3 +1,5 @@
+.PHONY: all shell up down logs build version theme-update
+
 all: up
 
 shell:
@@ -17,3 +19,6 @@ build:
 
 version:
 	@podman compose run --rm main version
+
+theme-update:
+	@podman compose run --rm main mod get -u github.com/nunocoracao/blowfish/v3

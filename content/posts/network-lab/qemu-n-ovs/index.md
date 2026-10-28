@@ -3,7 +3,7 @@ title: "QEMU And Open vSwitch"
 date: 2024-08-15T19:34:14Z
 draft: false
 description: "Intro to QEMU and Open vSwitch"
-tags: ['qemu', 'open vswitch', 'network']
+tags: ['qemu', 'openvswitch', 'network']
 series: ['VirtualNetworking']
 series_order: 2
 ---

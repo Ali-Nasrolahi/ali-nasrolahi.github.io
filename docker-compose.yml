@@ -5,7 +5,10 @@ services:
     image: ghcr.io/gohugoio/hugo:v0.167.0
     command: server --bind 0.0.0.0 --disableFastRender
     #command: ["sh"]
-    userns_mode: keep-id
+    # Map the host user to the Hugo image's hugo user (UID/GID 1000).
+    userns_mode: keep-id:uid=1000,gid=1000
+    environment:
+      HUGO_CACHEDIR: /project/.hugo_cache
     volumes:
       - .:/project:z
     ports:

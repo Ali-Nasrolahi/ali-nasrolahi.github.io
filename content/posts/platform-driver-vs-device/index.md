@@ -3,7 +3,7 @@ title: "Insights into Platform Devices, Drivers, and Buses in the Linux Kernel"
 date: 2025-03-13T08:20:15Z
 draft: false
 description: "This post explores Platform Bus, Platform Devices, and Platform Drivers in the Linux kernel — foundational concepts for managing non-discoverable hardware in embedded systems."
-tags: ['linux', 'device driver']
+tags: ['linux', 'device-driver']
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ title: "Writing an I2C EEPROM Driver for AT24 Series"
 date: 2025-03-22T17:10:41Z
 draft: false
 description: ""
-tags: ['device driver', 'linux', 'kernel']
+tags: ['device-driver', 'linux', 'kernel']
 ---
 
 ## Introduction

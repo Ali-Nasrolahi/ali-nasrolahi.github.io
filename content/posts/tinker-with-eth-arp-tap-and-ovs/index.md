@@ -3,7 +3,7 @@ title: "Tinkering with Ethernet: An ARP Responder with TAP & OVS"
 date: 2025-04-24T19:11:13Z
 draft: false
 description: "Combined TAP devices, ARP protocol, C programming, and Open vSwitch (OVS) to build a controlled virtual Layer 2 environment"
-tags: ['network', 'open vswitch', 'linux kernel']
+tags: ['network', 'openvswitch', 'linux', 'kernel']
 ---
 
 ## Introduction
